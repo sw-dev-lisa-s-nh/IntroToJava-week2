@@ -182,7 +182,7 @@ public class Loops {
 		System.out.println();
 
 		// Requirement 5d.
-		// Create a for loop that prints every numbers from 0 to 100, with the following
+		// Create a for loop that prints every number from 0 to 100, with the following
 		// exceptions:
 		// 			If the number is divisible by 3, print "Hello" instead of the number,
 		// 			and if the number is divisible by 5, print "World" instead of the number,
@@ -190,7 +190,7 @@ public class Loops {
 		// 			of the number.
 
 		System.out.println("Requirement #5d");
-		System.out.println("Print every other number from 0 to 100 with the following rules:");
+		System.out.println("Print every number from 0 to 100 with the following rules:");
 		System.out.println("  If the number is divisible by 3 and 5, print 'HelloWorld'.");
 		System.out.println("  If the number is divisible by 3, print 'Hello'.");
 		System.out.println("  If the number is divisible by 5, print 'World'.");
