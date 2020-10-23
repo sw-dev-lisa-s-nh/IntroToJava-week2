@@ -94,7 +94,7 @@ public class Loops {
 		// Print either "Yes" or "No" depending on the value of the new booleans.
 		System.out.println("Requirement #4");
 		System.out.println("New Boolean Variables & \"Yes\" or \"No\" based on the boolean statements:");
-		System.out.println("-------------------------------------------------------------------------");
+		System.out.println("----------------------------------------------------------------------");
 		System.out.print("Should we buy Ice Cream?  ");
 		if (shouldBuyIcecream) {
 			System.out.println("Yes");
@@ -188,23 +188,27 @@ public class Loops {
 		// 			and if the number is divisible by 5, print "World" instead of the number,
 		// 			and if the number is divisible by both 3 and 5, print "Hello World" instead
 		// 			of the number.
-
+		//  NOTE:  I added a System.out.println();  
+		//			This reformats the output to allow it to fit into a smaller section of the 
+		// 			Console.  So, after my code prints a "HelloWorld", meaning that the number is
+		//			divisible by 3 and by 5, a new line will start on the Console.
+	
 		System.out.println("Requirement #5d");
 		System.out.println("Print every number from 0 to 100 with the following rules:");
 		System.out.println("  If the number is divisible by 3 and 5, print 'HelloWorld'.");
 		System.out.println("  If the number is divisible by 3, print 'Hello'.");
 		System.out.println("  If the number is divisible by 5, print 'World'.");
 		System.out.println("  Otherwise, print the number.");
-		System.out.println("----------------------------------------------------------------");
+		System.out.println("-------------------------------------------------------------");
 		System.out.println();
 
 		for (int c = 0; c <= 100; c++) {
-			if ((c % 3 == 0) && (c % 5 == 0) && (c != 0)) {
+			if ((c % 3 == 0) && (c % 5 == 0)) {
 				System.out.print("HelloWorld ");
 				System.out.println();
-			} else if ((c % 3 == 0) && (c != 0)) {
+			} else if (c % 3 == 0) {
 				System.out.print("Hello ");
-			} else if ((c % 5 == 0) && (c != 0)) {
+			} else if (c % 5 == 0) {
 				System.out.print("World ");
 
 			} else {
